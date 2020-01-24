@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Denis Shumilin](https://up.htmlacademy.ru/htmlcss/27/user/1285643).
-* Наставник: [Артем Глуханько] (https://htmlacademy.ru/profile/v1z).
+* Наставник: [Артем (Гуру Html) Глуханько] (https://htmlacademy.ru/profile/v1z).
 
 ---
 

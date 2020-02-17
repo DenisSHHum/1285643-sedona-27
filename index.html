@@ -79,9 +79,24 @@
       <p>
         Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостинниц в седоне
       </p>
-      <button name="search" value="searchhotel">
-        Поиск гостинницы в седоне
-      </button>
+      <form action="" method="post">
+        <fieldset>
+          <legend>поиск гостинницы в седоне</legend>
+          <label>
+            дата заезда <input type="date" name="date" placeholder="24 апреля 2017">
+          </label>
+          <label>
+            дата выезда <input type="date" name="date" placeholder="4 июля 2017">
+          </label>
+          <label>
+            взрослые 1<input type="range" min="1" max="10">10
+          </label>
+          <label>
+            дети 0<input type="range" min="0" max="10">10
+          </label>
+          <button>найти</button>
+        </fieldset>
+      </form>
       <img src="img/map.jpg">
     </section>
   </main>
@@ -92,13 +107,13 @@
     </p>
     <ul>
       <li>
-        <a href="#">twitter</a>
+        <a href="https://twitter.com/">twitter</a>
       </li>
       <li>
-        <a href="#">facebook</a>
+        <a href="https://www.facebook.com/">facebook</a>
       </li>
       <li>
-        <a href="#">youtube</a>
+        <a href="https://www.youtube.com/">youtube</a>
       </li>
     </ul>
     <p>

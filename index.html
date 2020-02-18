@@ -79,26 +79,28 @@
       <p>
         Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостинниц в седоне
       </p>
-      <form action="" method="post">
-        <fieldset>
-          <legend>поиск гостинницы в седоне</legend>
-          <label>
-            дата заезда <input type="date" name="date" placeholder="24 апреля 2017">
-          </label>
-          <label>
-            дата выезда <input type="date" name="date" placeholder="4 июля 2017">
-          </label>
-          <label>
-            взрослые 1<input type="range" min="1" max="10">10
-          </label>
-          <label>
-            дети 0<input type="range" min="0" max="10">10
-          </label>
-          <button>найти</button>
-        </fieldset>
-      </form>
-      <img src="img/map.jpg">
+      <button name="search" value="searchhotel">
+        Поиск гостинницы в седоне
+      </button>
     </section>
+    <form action="" method="post">
+      <fieldset>
+        <label>
+          Дата заезда <input type="date" name="date" placeholder="24 апреля 2017">
+        </label>
+        <label>
+          Дата выезда <input type="date" name="date" placeholder="4 июля 2017">
+        </label>
+        <label>
+          Взрослые 1<input type="range" min="0" max="10">10
+        </label>
+        <label>
+          Дети 0<input type="range" min="0" max="10">10
+        </label>
+        <button type="submit">Найти</button>
+      </fieldset>
+    </form>
+    <img src="img/map.jpg">
   </main>
   <footer>
     <p>
@@ -107,17 +109,17 @@
     </p>
     <ul>
       <li>
-        <a href="https://twitter.com/">twitter</a>
+        <a href="https://twitter.com/" target='_blank'>Twitter</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/">facebook</a>
+        <a href="https://www.facebook.com/" target='_blank'>Facebook</a>
       </li>
       <li>
-        <a href="https://www.youtube.com/">youtube</a>
+        <a href="https://www.youtube.com/" target='_blank'>Youtube</a>
       </li>
     </ul>
     <p>
-      <a href="https://htmlacademy.ru/"> Website by HTML-academy</a>
+      <a href="https://htmlacademy.ru/" target='_blank'> Website by HTML-academy</a>
     </p>
   </footer>
 

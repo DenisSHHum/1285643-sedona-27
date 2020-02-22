@@ -1,16 +1,19 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #000000;
+}
+
+/* {
   background-color: transparent;
   background-image: url("img/background-photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-}
+} **/
 
 a {
   text-decoration: none;
@@ -20,23 +23,17 @@ a {
   font-size: 14px;
   line-height: 20px;
   color: #000000;
-  background-color: #ffffff;
 }
 
-.site-navigation {
+.navigation-list {
   list-style: none;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus {
+.navigation:hover,
+.navigation:focus {
   background-color: #95cfff;
 }
 
-.welcome {
-  width: 459px;
-  height: 353px;
-  object-fit: contain;
-}
 
 h1 {
   width: 440px;
@@ -51,8 +48,6 @@ h1 {
 
 .advantages {
   width: 489px;
-  height: 13px;
-
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;

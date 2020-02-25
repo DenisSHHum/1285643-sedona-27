@@ -8,12 +8,12 @@ body {
   color: #000000;
 }
 
-/* {
+.welcome {
   background-color: transparent;
   background-image: url("img/background-photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-} **/
+}
 
 a {
   text-decoration: none;
@@ -36,8 +36,6 @@ a {
 
 
 h1 {
-  width: 440px;
-  height: 48px;
   font-size: 21px;
   font-weight: bold;
   font-stretch: normal;
@@ -47,7 +45,6 @@ h1 {
 }
 
 .advantages {
-  width: 489px;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -57,8 +54,6 @@ h1 {
 }
 
 .question {
-  width: 434px;
-  height: 96px;
   font-family: PTSans;
   font-size: 14px;
   font-weight: normal;
@@ -71,8 +66,6 @@ h1 {
 }
 
 .search {
-  width: 289px;
-  height: 18px;
   font-family: PTSans;
   font-size: 21px;
   font-weight: bold;

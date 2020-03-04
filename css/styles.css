@@ -8,10 +8,22 @@ body {
   color: #000000;
 }
 
+.main-header {
+  margin-bottom: 76px;
+}
+
 .welcome-sedona {
   height: 545px;
   width: 100%;
   background: transparent url("../img/background-photo.jpg") top center no-repeat;
+}
+
+.main-header-logo::before {
+  width: 140px;
+  height: 71px;
+  background-image: transparent url("../img/logo.png") center no-repeat;
+  content: "";
+  display: block;
 }
 
 .welcome-sedona::after {
@@ -37,6 +49,9 @@ a {
   font-size: 14px;
   line-height: 20px;
   color: #000000;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation-list {
